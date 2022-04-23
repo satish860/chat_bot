@@ -2,7 +2,7 @@ import telebot
 from transformers import pipeline
 import wikipedia
 
-bot = telebot.TeleBot("5266165301:AAHYKpM2XEIaqiA2TRWDJ0i7-6AGIzKNN4c",parse_mode = None)
+bot = telebot.TeleBot("YOUR_BOT_TOKEN",parse_mode = None)
 question_answering = pipeline("question-answering")
 state = 0 
 context = '';
