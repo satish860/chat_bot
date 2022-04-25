@@ -1,7 +1,7 @@
 import telebot
 from transformers import pipeline
 
-bot = telebot.TeleBot("5266165301:AAHYKpM2XEIaqiA2TRWDJ0i7-6AGIzKNN4c",parse_mode = None)
+bot = telebot.TeleBot("YOUR_BOT_TOKEN",parse_mode = None)
 intent_classfication = pipeline("zero-shot-classification")
 labels = ["choose drinks", "order a pizza", "inform my address"]
 
